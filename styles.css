@@ -44,17 +44,18 @@ header.navigation nav#navbar ul {
 
 header.navigation nav#navbar ul li {
 	list-style: none;
+	transition: 0.5s ease;
 }
 
 header.navigation nav#navbar ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-size: 18px;
-	padding: 0 20px;
-	transition: 0.3s ease;
+	padding: 19px 20px;
+	margin-left: 10px;
 }
 
-header.navigation nav#navbar ul li a:hover {
+header.navigation nav#navbar ul li:hover a {
 	background-color: #45567d;
 }
 
