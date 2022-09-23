@@ -51,6 +51,11 @@ header.navigation nav#navbar ul li a{
 	color: #fff;
 	font-size: 18px;
 	padding: 0 20px;
+	transition: 0.3s ease;
+}
+
+header.navigation nav#navbar ul li a:hover {
+	background-color: #45567d;
 }
 
 /*Responsive*/
